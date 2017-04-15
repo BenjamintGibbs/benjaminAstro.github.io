@@ -1,3 +1,8 @@
+// CODEPEN BY Leon Grasmeijer
+
+//http://codepen.io/LeonGr/
+
+
 var canvas = document.getElementById("canvas"),
     ctx = canvas.getContext('2d');
 
@@ -5,7 +10,7 @@ canvas.width = document.body.clientWidth;
 canvas.height = document.body.clientHeight;
 
 var stars = [], // Array that contains the stars
-    FPS = 80, // Frames per second
+    FPS = 60, // Frames per second
     x = canvas.width; // Number of stars
 
 // Push stars to array
@@ -60,3 +65,4 @@ function tick() {
 }
 
 tick();
+

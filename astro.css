@@ -40,13 +40,13 @@ header img {
   height: 32px;
   width: 32px;
 }
-.container {
-  width: 100%;
-  position: relative;
-  top: 60px;
-  padding-right: 70px;
-  padding-left: 60px;
-  padding-bottom: 30px;
+canvas {
+ position: fixed;
+ width:100%;
+ min-height: 100%;
+ z-index:-1;
+ background: #111;
+ margin-top: -20px;
 }
 ul.galeria, ul.galeria > li {
     list-style: none;

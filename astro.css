@@ -85,7 +85,7 @@ ul.galeria > li {
 }
 @media(min-width:1200px){
     ul.galeria > li {
-        width: 25%;
+        width: 33%;
     }
 }
 
